@@ -1,0 +1,4 @@
+$(document).ready(function() {
+  $('.see-photots').on("click", function() {
+  });
+});
