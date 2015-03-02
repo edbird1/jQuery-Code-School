@@ -1,0 +1,5 @@
+$(document).ready(function() {
+  $("#nights").on("keyup", function() {
+    var nights = $('#nights-count').text($(this).val());
+  });
+});
