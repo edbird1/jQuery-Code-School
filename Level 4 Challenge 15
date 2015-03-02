@@ -1,0 +1,8 @@
+$(document).ready(function() {
+  $("#nights").on("keyup", function() {
+    var nights = +$(this).val();
+    var dailyPrice = +$(this).closest('.tour').data('daily-price');
+    $('#total').text(dailyPrice * nights);
+    $("#nights-count").text($(this).val());
+  });
+});
